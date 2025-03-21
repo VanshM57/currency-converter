@@ -35,7 +35,7 @@ function App() {
   useEffect(() => {
     convertCurrency();
   }
-  , [fromCurrency, toCurrency, amount]);
+  , [fromCurrency, toCurrency]);
 
   return (
     <div style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', background: '#1e1e1e', padding: '20px' }}>
